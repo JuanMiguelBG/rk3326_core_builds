@@ -1,0 +1,42 @@
+diff -U 3 /intl/msg_hash_es.h /intl/msg_hash_es.h
+--- /intl/msg_hash_es.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_es.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menú principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4437,7 +4437,7 @@
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menú principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_us.h /intl/msg_hash_us.h
+--- /intl/msg_hash_us.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_us.h	Tue Dec 28 18:23:36 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Main Menu"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4501,7 +4501,7 @@
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Main Menu"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
