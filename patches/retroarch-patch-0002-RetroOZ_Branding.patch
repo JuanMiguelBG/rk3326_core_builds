@@ -1,3 +1,234 @@
+diff -U 3 /intl/msg_hash_ar.h /intl/msg_hash_ar.h
+--- /intl/msg_hash_ar.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_ar.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "القائمة الرئيسية"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -3515,7 +3515,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "القائمة الرئيسيه"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_ALL,
+diff -U 3 /intl/msg_hash_ast.h /intl/msg_hash_ast.h
+--- /intl/msg_hash_ast.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_ast.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menú principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -1423,7 +1423,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menú principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_TIMEDATE_ENABLE,
+diff -U 3 /intl/msg_hash_ca.h /intl/msg_hash_ca.h
+--- /intl/msg_hash_ca.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_ca.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menú Principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -2519,7 +2519,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menú Principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_CUSTOM,
+diff -U 3 /intl/msg_hash_chs.h /intl/msg_hash_chs.h
+--- /intl/msg_hash_chs.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_chs.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "菜单"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4631,7 +4631,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "主菜单"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_cht.h /intl/msg_hash_cht.h
+--- /intl/msg_hash_cht.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_cht.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "主選單"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -2803,7 +2803,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "主選單"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_CUSTOM,
+diff -U 3 /intl/msg_hash_cs.h /intl/msg_hash_cs.h
+--- /intl/msg_hash_cs.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_cs.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Hlavní Menu"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4647,7 +4647,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Hlavní Menu"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_cy.h /intl/msg_hash_cy.h
+--- /intl/msg_hash_cy.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_cy.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Prif Ddewislen"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -1191,7 +1191,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Prif Ddewislen"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_ALL,
+diff -U 3 /intl/msg_hash_da.h /intl/msg_hash_da.h
+--- /intl/msg_hash_da.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_da.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Hovedmenu"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -1143,7 +1143,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Hovedmenu"
++   "RetroOZ"
+    )
+ 
+ /* Settings > User Interface > Menu Item Visibility > Quick Menu */
+diff -U 3 /intl/msg_hash_de.h /intl/msg_hash_de.h
+--- /intl/msg_hash_de.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_de.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Hauptmenü"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4631,7 +4631,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Hauptmenü"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_el.h /intl/msg_hash_el.h
+--- /intl/msg_hash_el.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_el.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Κεντρικό Μενού"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -2655,7 +2655,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Κεντρικό Μενού"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_ALL,
+diff -U 3 /intl/msg_hash_eo.h /intl/msg_hash_eo.h
+--- /intl/msg_hash_eo.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_eo.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Ĉefa Menuo"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -575,7 +575,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Ĉefa Menuo"
++   "RetroOZ"
+    )
+ 
+ /* Settings > User Interface > Menu Item Visibility > Quick Menu */
 diff -U 3 /intl/msg_hash_es.h /intl/msg_hash_es.h
 --- /intl/msg_hash_es.h	Sun Dec  5 07:12:23 2021
 +++ /intl/msg_hash_es.h	Tue Dec 28 18:24:10 2021
@@ -10,7 +241,7 @@ diff -U 3 /intl/msg_hash_es.h /intl/msg_hash_es.h
     )
  MSG_HASH(
     MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
-@@ -4437,7 +4437,7 @@
+@@ -4719,7 +4719,7 @@ MSG_HASH(
     )
  MSG_HASH(
     MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
@@ -19,9 +250,471 @@ diff -U 3 /intl/msg_hash_es.h /intl/msg_hash_es.h
     )
  MSG_HASH(
     MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_fa.h /intl/msg_hash_fa.h
+--- /intl/msg_hash_fa.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_fa.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "گزین فهرست"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -1723,7 +1723,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "گزین فهرست"
++   "RetroOZ"
+    )
+ 
+ /* Settings > User Interface > Menu Item Visibility > Quick Menu */
+diff -U 3 /intl/msg_hash_fi.h /intl/msg_hash_fi.h
+--- /intl/msg_hash_fi.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_fi.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Päävalikko"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4595,7 +4595,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Päävalikko"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_fr.h /intl/msg_hash_fr.h
+--- /intl/msg_hash_fr.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_fr.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menu principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4699,7 +4699,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menu principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_gl.h /intl/msg_hash_gl.h
+--- /intl/msg_hash_gl.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_gl.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menú principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -1695,7 +1695,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menú principal"
++   "RetroOZ"
+    )
+ 
+ /* Settings > User Interface > Menu Item Visibility > Quick Menu */
+diff -U 3 /intl/msg_hash_he.h /intl/msg_hash_he.h
+--- /intl/msg_hash_he.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_he.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "תפריט ראשי"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -591,7 +591,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "תפריט ראשי"
++   "RetroOZ"
+    )
+ 
+ /* Settings > User Interface > Menu Item Visibility > Quick Menu */
+diff -U 3 /intl/msg_hash_hr.h /intl/msg_hash_hr.h
+--- /intl/msg_hash_hr.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_hr.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Glavni izbornik"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -711,7 +711,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Glavni izbornik"
++   "RetroOZ"
+    )
+ 
+ /* Settings > User Interface > Menu Item Visibility > Quick Menu */
+diff -U 3 /intl/msg_hash_hu.h /intl/msg_hash_hu.h
+--- /intl/msg_hash_hu.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_hu.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Főmenü"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -1831,7 +1831,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Főmenü"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_ALL,
+diff -U 3 /intl/msg_hash_id.h /intl/msg_hash_id.h
+--- /intl/msg_hash_id.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_id.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menu Utama"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -2403,7 +2403,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menu utama"
++   "RetroOZ"
+    )
+ 
+ /* Settings > User Interface > Menu Item Visibility > Quick Menu */
+diff -U 3 /intl/msg_hash_it.h /intl/msg_hash_it.h
+--- /intl/msg_hash_it.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_it.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menu Principale"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4687,7 +4687,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menu Principale"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_ja.h /intl/msg_hash_ja.h
+--- /intl/msg_hash_ja.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_ja.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "メインメニュー"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4275,7 +4275,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "メインメニュー"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_ko.h /intl/msg_hash_ko.h
+--- /intl/msg_hash_ko.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_ko.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "메인 메뉴"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4755,7 +4755,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "메인 메뉴"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_nl.h /intl/msg_hash_nl.h
+--- /intl/msg_hash_nl.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_nl.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Hoofdmenu"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -2919,7 +2919,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Hoofdmenu"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_CUSTOM,
+diff -U 3 /intl/msg_hash_oc.h /intl/msg_hash_oc.h
+--- /intl/msg_hash_oc.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_oc.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menú principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -375,7 +375,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menú principal"
++   "RetroOZ"
+    )
+ 
+ /* Settings > User Interface > Menu Item Visibility > Quick Menu */
+diff -U 3 /intl/msg_hash_pl.h /intl/msg_hash_pl.h
+--- /intl/msg_hash_pl.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_pl.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menu główne"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4611,7 +4611,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menu główne"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_pt_br.h /intl/msg_hash_pt_br.h
+--- /intl/msg_hash_pt_br.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_pt_br.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menu principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4695,7 +4695,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menu principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_pt_pt.h /intl/msg_hash_pt_pt.h
+--- /intl/msg_hash_pt_pt.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_pt_pt.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menu principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -2479,7 +2479,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menu principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_CUSTOM,
+diff -U 3 /intl/msg_hash_ru.h /intl/msg_hash_ru.h
+--- /intl/msg_hash_ru.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_ru.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Главное меню"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4747,7 +4747,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Главное меню"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_sk.h /intl/msg_hash_sk.h
+--- /intl/msg_hash_sk.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_sk.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Hlavné menu"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -2311,7 +2311,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Hlavné Menu"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_ALL,
+diff -U 3 /intl/msg_hash_sr.h /intl/msg_hash_sr.h
+--- /intl/msg_hash_sr.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_sr.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Glavni meni"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -1907,7 +1907,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Glavni meni"
++   "RetroOZ"
+    )
+ 
+ /* Settings > User Interface > Menu Item Visibility > Quick Menu */
+diff -U 3 /intl/msg_hash_sv.h /intl/msg_hash_sv.h
+--- /intl/msg_hash_sv.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_sv.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Huvudmeny"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -2239,7 +2239,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Huvudmeny"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_CONTENT_SHOW_PLAYLISTS,
+diff -U 3 /intl/msg_hash_tr.h /intl/msg_hash_tr.h
+--- /intl/msg_hash_tr.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_tr.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Ana Menü"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -4715,7 +4715,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Ana Menü"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_uk.h /intl/msg_hash_uk.h
+--- /intl/msg_hash_uk.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_uk.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Головне меню"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -3155,7 +3155,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Головне меню"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_ALL,
 diff -U 3 /intl/msg_hash_us.h /intl/msg_hash_us.h
 --- /intl/msg_hash_us.h	Sun Dec  5 07:12:23 2021
-+++ /intl/msg_hash_us.h	Tue Dec 28 18:23:36 2021
++++ /intl/msg_hash_us.h	Tue Dec 28 18:24:10 2021
 @@ -10,7 +10,7 @@
  
  MSG_HASH(
@@ -31,7 +724,7 @@ diff -U 3 /intl/msg_hash_us.h /intl/msg_hash_us.h
     )
  MSG_HASH(
     MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
-@@ -4501,7 +4501,7 @@
+@@ -4787,7 +4787,7 @@ MSG_HASH(
     )
  MSG_HASH(
     MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
@@ -40,3 +733,45 @@ diff -U 3 /intl/msg_hash_us.h /intl/msg_hash_us.h
     )
  MSG_HASH(
     MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_PLAYLISTS_TAB,
+diff -U 3 /intl/msg_hash_val.h /intl/msg_hash_val.h
+--- /intl/msg_hash_val.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_val.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Menú principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -2315,7 +2315,7 @@ MSG_HASH(
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Menú principal"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_SUBLABEL_CONTENT_SHOW_CONTENTLESS_CORES,
+diff -U 3 /intl/msg_hash_vn.h /intl/msg_hash_vn.h
+--- /intl/msg_hash_vn.h	Sun Dec  5 07:12:23 2021
++++ /intl/msg_hash_vn.h	Tue Dec 28 18:24:10 2021
+@@ -10,7 +10,7 @@
+ 
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MAIN_MENU,
+-   "Trình đơn chính"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SETTINGS_TAB,
+@@ -1423,7 +1423,7 @@ MSG_HASH(
+ #endif
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_MENU_ADD_CONTENT_ENTRY_DISPLAY_MAIN_TAB,
+-   "Trình đơn chính"
++   "RetroOZ"
+    )
+ MSG_HASH(
+    MENU_ENUM_LABEL_VALUE_SHOW_CONTENTLESS_CORES_CUSTOM,
