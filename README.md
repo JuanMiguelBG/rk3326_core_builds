@@ -1,4 +1,4 @@
-# Script to automate the build of various Libretro cores, Nxengine-evo, Retroarch, PPSSPP, ScummVM, Emulationstation-fcamod for use with RK3326 devices (including Chi, OGA, OGS, RG351P/M/MP/V, and the RK2020)
+# Script to automate the build of various Libretro cores, Nxengine-evo, Retroarch, PPSSPP, ScummVM, Emulationstation-fcamod for use with RK3326 devices (including OGA, OGS, RGB10 MAX and the RGB10 MAX2)
 
 ## For the rk3566 chipset, use the rk3566 branch
 
@@ -12,7 +12,7 @@ This script is designed to only build cores, retroarch and PPSSPP that are compa
 ## How to use: (In a aarch64 chroot or armhf chroot or building from Ubuntu based distro on a RK3326 device)
 
 ```
-git clone https://github.com/christianhaitian/rk3326_core_builds.git
+git clone https://github.com/christianhaitian/rk3326_core_builds.git -b rgb10max
 cd rk3326_core_builds
 ```
 
