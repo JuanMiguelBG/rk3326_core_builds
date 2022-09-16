@@ -118,6 +118,9 @@ cd rk3326_core_builds
 ### To build just mame2003-plus (64bit only):
 `./builds.sh mame2003-plus`
 
+### To build just mame2003-xtreme (32bit only):
+`./builds.sh mame2003-xtreme`
+
 ### To build just mame2010 (64bit only):
 `./builds.sh mame2010`
 
