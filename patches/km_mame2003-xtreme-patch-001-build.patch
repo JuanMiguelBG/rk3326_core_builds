@@ -1,0 +1,132 @@
+diff --git a/Makefile b/Makefile
+index d2a8e05..ee39f50 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,8 +1,13 @@
+-DEBUG=0
+-DEBUGGER=0
+-SPLIT_UP_LINK=0
+-CORE_DIR := src
+ TARGET_NAME := km_mame2003_xtreme
++CORE_DIR := src
++
++DEBUG         ?= 0
++DEBUGGER      ?= 0
++SPLIT_UP_LINK ?= 0
++ARM           ?= 0 # set to 0 or 1 to indicate ARM or not
++CPU_ARCH      ?= 0 # as of November 2018 this flag doesn't seem to be used but is being set to either arm or arm64 for some platforms
++
++LIBS          ?=
+ 
+ #gcc 10 sets -fno-common this will patch you to compile until the issue is fixed
+ 
+@@ -13,30 +18,32 @@ ifneq ($(GIT_VERSION)," unknown")
+ 	CFLAGS += -DGIT_VERSION=\"$(GIT_VERSION)\"
+ endif
+ 
++UNAME_A = $(shell uname -a)
++
+ ifeq ($(platform),)
+ system_platform = unix
+ platform = unix
+-ifeq ($(shell uname -a),)
++ifeq ($(UNAME_A),)
+    system_platform = win
+    platform = win
+-else ifneq ($(findstring MINGW,$(shell uname -a)),)
++else ifneq ($(findstring MINGW,$(UNAME_A)),)
+    system_platform = win
+    platform = win
+-else ifneq ($(findstring Darwin,$(shell uname -a)),)
++else ifneq ($(findstring Darwin,$(UNAME_A)),)
+    system_platform = osx
+    platform = osx
+-else ifneq ($(findstring win,$(shell uname -a)),)
++else ifneq ($(findstring win,$(UNAME_A)),)
+    system_platform = win
+    platform = win
+ endif
+ endif
+ 
+ #Windows and wsl need to have their linking split up due to cmd length limits
+-ifneq ($(findstring Microsoft,$(shell uname -a)),)
++ifneq ($(findstring Microsoft,$(UNAME_A)),)
+    SPLIT_UP_LINK=1
+ endif
+ 
+-ifneq ($(findstring MINGW,$(shell uname -a)),)
++ifneq ($(findstring MINGW,$(UNAME_A)),)
+    SPLIT_UP_LINK=1
+ endif
+ 
+@@ -65,8 +72,6 @@ ifeq ($(ARCH), x86)
+ 	X86_MIPS3_DRC = 1
+ endif
+ 
+-LIBS :=
+-
+ ifeq (,$(findstring msvc,$(platform)))
+ LIBS += -lm
+ endif
+@@ -75,6 +80,12 @@ ifneq (,$(findstring msvc,$(platform)))
+ system_platform = win
+ endif
+ 
++$(info    Platform is $(platform))
++$(info    SYSTEM Platform is $(system_platform))
++$(info    ARCH is $(ARCH))
++$(info    UNAME_P is $(UNAME_P))
++$(info    UNAME_A is $(UNAME_A))
++
+ ifeq ($(platform), unix)
+    TARGET = $(TARGET_NAME)_libretro.so
+    fpic = -fPIC
+@@ -192,6 +203,23 @@ else ifeq ($(platform), rpi4_64)
+    CXXFLAGS = $(CFLAGS) -fno-rtti -fno-exceptions
+    CPU_ARCH := arm64
+ 
++# Rockchip Rk3326 - 32-bit userspace
++
++else ifeq ($(platform), rk3326)
++   TARGET := $(TARGET_NAME)_libretro.so
++   fpic := -fPIC
++   ARCH = arm
++   DYNAREC = ari64
++   BUILTIN_GPU = neon
++   HAVE_NEON = 1
++   HAVE_NEON_ASM = 1
++   CFLAGS += -marm -mtune=cortex-a35 -mfpu=neon-fp-armv8 -mfloat-abi=hard -Ofast
++   ASFLAGS += -mcpu=cortex-a35 -mfpu=neon-fp-armv8 -mfloat-abi=hard
++   PLATCFLAGS += -Dstricmp=strcasecmp
++   LDFLAGS += -fPIC -shared -Wl,--version-script=link.T
++
++#######################################
++
+ # Amlogic S905/S905X/S912 (AMLGXBB/AMLGXL/AMLGXM) e.g. Khadas VIM1/2 / S905X2 (AMLG12A) & S922X/A311D (AMLG12B) e.g. Khadas VIM3 - 32-bit userspace
+ 
+ else ifneq (,$(findstring AMLG,$(platform)))
+@@ -539,6 +567,24 @@ define NEWLINE
+ 
+ endef
+ 
++$(info    $(NEWLINE)TARGET is '$(TARGET)')
++$(info    LDFLAGS is '$(LDFLAGS)')
++$(info    CFLAGS is '$(CFLAGS)')
++$(info    CXXFLAGS is '$(CXXFLAGS)')
++$(info    CPPFLAGS is '$(CPPFLAGS)')
++$(info    ASFLAGS is '$(ASFLAGS)')
++$(info    HAVE_NEON is '$(HAVE_NEON)')
++$(info    ARCH is '$(ARCH)')
++$(info    BUILTIN_GPU is '$(BUILTIN_GPU)')
++$(info    USE_DYNAREC is '$(USE_DYNAREC)')
++$(info    CPU_ARCH is '$(CPU_ARCH)')
++$(info    ARM is '$(ARM)')
++$(info    PLATCFLAGS is '$(PLATCFLAGS)')
++$(info    ARSTATIC_LINKINGM is '$(STATIC_LINKING)')
++$(info    PSS_STYLE is '$(PSS_STYLE)')
++$(info    BIGENDIAN is '$(BIGENDIAN)')
++$(info    OSXVER is '$(OSXVER)'$(NEWLINE))
++
+ all:	$(TARGET)
+ $(TARGET): $(OBJECTS)
+ ifeq ($(STATIC_LINKING),1)

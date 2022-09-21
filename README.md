@@ -12,7 +12,7 @@ This script is designed to only build cores, retroarch and PPSSPP that are compa
 ## How to use: (In a aarch64 chroot or armhf chroot or building from Ubuntu based distro on a RK3326 device)
 
 ```
-git clone https://github.com/christianhaitian/rk3326_core_builds.git -b rgb10max
+git clone https://github.com/JuanMiguelBG/rk3326_core_builds.git -b rgb10max
 cd rk3326_core_builds
 ```
 
@@ -118,8 +118,8 @@ cd rk3326_core_builds
 ### To build just mame2003-plus (64bit only):
 `./builds.sh mame2003-plus`
 
-### To build just mame2003-xtreme (32bit only):
-`./builds.sh mame2003-xtreme`
+### To build just km_mame2003-xtreme (32bit only):
+`./builds.sh km_mame2003-xtreme`
 
 ### To build just mame2010 (64bit only):
 `./builds.sh mame2010`
