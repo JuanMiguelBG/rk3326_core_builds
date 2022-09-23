@@ -144,7 +144,7 @@ do
          cd $cur_wd
          source scripts/mame2003-plus.sh
          cd $cur_wd
-         source scripts/mame2003-xtreme.sh
+         source scripts/km_mame2003-xtreme.sh
        fi
   fi
 done

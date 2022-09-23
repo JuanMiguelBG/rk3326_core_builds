@@ -58,6 +58,9 @@ cd rk3326_core_builds
 ### To build just fake08 standalone emulator (64bit only):
 `./builds.sh fake08`
 
+### To build just fbalpha2012 (64bit only):
+`./builds.sh fbalpha2012`
+
 ### To build just fbneo (64bit only):
 `./builds.sh fbneo`
 
@@ -106,7 +109,7 @@ cd rk3326_core_builds
 ### To build just lynx (64bit only):
 `./builds.sh lynx`
 
-##To build just mame (64bit only); <--Very long build.  Could be 24 hours or more to complete.
+### To build just mame (64bit only); <--Very long build.  Could be 24 hours or more to complete.
 `./builds.sh mame`
 
 ### To build just mame2000 (64bit only):
