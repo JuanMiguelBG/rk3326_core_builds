@@ -61,6 +61,12 @@ cd rk3326_core_builds
 ### To build just fbalpha2012 (64bit only):
 `./builds.sh fbalpha2012`
 
+### To build just fbalpha2016 (32bit only):
+`./builds.sh fbalpha2016`
+
+### To build just fbalpha2018 (32bit only):
+`./builds.sh fbalpha2018`
+
 ### To build just fbneo (64bit only):
 `./builds.sh fbneo`
 

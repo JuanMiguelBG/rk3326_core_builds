@@ -1,0 +1,35 @@
+diff --git a/makefile.libretro b/makefile.libretro
+index ccc0969..a179617 100644
+--- a/makefile.libretro
++++ b/makefile.libretro
+@@ -61,7 +61,7 @@ ifneq (, $(findstring clang,$(CXX)))
+ endif
+ 
+ # TARGET
+-TARGET_NAME := fbalpha
++TARGET_NAME := fbalpha2016
+ 
+ # GIT HASH
+ GIT_VERSION := " $(shell git rev-parse --short HEAD || echo unknown)"
+@@ -258,6 +258,21 @@ else ifeq ($(platform), emscripten)
+    PLATFORM_DEFINES := -DUSE_FILE32API
+    ENDIANNESS_DEFINES := -DLSB_FIRST -DNO_UNALIGNED_MEM
+ 
++# Rockchip Rk3326 - 32-bit userspace
++
++else ifeq ($(platform), rk3326)
++   TARGET := $(TARGET_NAME)_libretro.so
++   fpic := -fPIC
++   SHARED := -shared -Wl,-no-undefined -Wl,--version-script=$(LIBRETRO_DIR)/link.T
++   ARCH = arm
++   ENDIANNESS_DEFINES := -DLSB_FIRST
++   CFLAGS += -marm -mtune=cortex-a35 -mfpu=neon-fp-armv8 -mfloat-abi=hard -Ofast
++   CXXFLAGS += $(CFLAGS)
++   ASFLAGS += -mcpu=cortex-a35 -mfpu=neon-fp-armv8 -mfloat-abi=hard
++   LDFLAGS += -fPIC -static-libgcc -static-libstdc++ -lpthread
++
++#######################################
++
+ # Windows
+ else
+    TARGET := $(TARGET_NAME)_libretro.dll
