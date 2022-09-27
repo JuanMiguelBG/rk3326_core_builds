@@ -106,6 +106,12 @@ cd rk3326_core_builds
 ### To build just fmsx (64bit only):
 `./builds.sh fmsx`
 
+### To build just freeintv core (64bit only):
+`./builds.sh freeintv`
+
+### To build just freechaf core (64bit only):
+`./builds.sh freechaf`
+
 ### To build just hypseus (64bit only):
 `./builds.sh hypseus`
 
@@ -138,6 +144,9 @@ cd rk3326_core_builds
 
 ### To build just melonds (64bit only):
 `./builds.sh melonds`
+
+### To build just mesen (64bit only):
+`./builds.sh mesen`
 
 ### To build just mess (64bit only): <--Very long build.  Could be 24 hours or more to complete.
 `./builds.sh mess`
@@ -174,6 +183,9 @@ cd rk3326_core_builds
 
 ### To build just prboom (64bit Only):
 `./builds.sh prboom`
+
+### To build just prosystem (64bit Only):
+`./builds.sh prosystem`
 
 ### To build just puae (64bit Only):
 `./builds.sh puae`
@@ -241,11 +253,17 @@ cd rk3326_core_builds
 ### To build just uzem:
 `./builds.sh uzem`
 
+### To build just vectrex (64bit only):
+`./builds.sh vectrex`
+
 ### To build just vemulator:
 `./builds.sh vemulator`
 
 ### To build just vice cores:
 `./builds.sh vice`
+
+### To build just virtualboy (64bit only):
+`./builds.sh vb`
 
 ### To build just virtualjaguar:
 `./builds.sh virtualjaguar`
