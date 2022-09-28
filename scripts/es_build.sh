@@ -3,7 +3,7 @@
 ##################################################################
 # Created by Christian Haitian for use to easily update          #
 # various standalone emulators, libretro cores, and other        #
-# various programs for the RK3566 platform for various Linux     #
+# various programs for the RK3326 platform for various Linux     #
 # based distributions.                                           #
 # See the LICENSE.md file at the top-level directory of this     #
 # repository.                                                    #
@@ -113,6 +113,6 @@ if [[ "$var" == "es_build" ]] && [[ "$bitness" == "64" ]]; then
 
 	cp emulationstation ../es-fcamod/emulationstation
 	echo " "
-	echo "The version of emulationstation-fcamod has been created and has been placed in the rk3566_core_builds/es-fcamod subfolder."
+	echo "The version of emulationstation-fcamod has been created and has been placed in the rk3326_core_builds/es-fcamod subfolder."
 	exit 0
 fi
